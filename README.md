@@ -4,7 +4,7 @@ This repository is a collection of my daily coding challenge solutions, as of Ma
 
 ### 🧐 Why?
 
-* a chance to work through different puzzles and scenarios
+* a chance to work through different puzzles
 * daily coding helps to solidify core concepts
 * what better way to deepen my understanding of the language than to use it?
 
