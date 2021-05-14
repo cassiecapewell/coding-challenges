@@ -1,6 +1,6 @@
 # 👩‍💻 Daily Coding Challenges
 
-This repository is a collection of my daily coding challenge solutions, as of May 2021.
+This repository is a collection of my daily coding challenge solutions, as of **May 2021**.
 
 ### 🧐 Why?
 
