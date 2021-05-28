@@ -410,7 +410,7 @@ function arrayMadness(a, b) {
   return (newA.reduce((acc,c) => (acc+c))) > (newB.reduce((acc,c) => (acc+c)))
 }
 
-//refactored
+//refactoredd
 const arrayMadness = (a, b) => a.reduce((acc, c) => acc + c**2) > b.reduce((acc, c) => acc + c**3)
 
 console.log(arrayMadness([1,2,3,4,5],[2,2,2,2,2,2,1,1,1]))
