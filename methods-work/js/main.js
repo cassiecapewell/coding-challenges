@@ -1,3 +1,4 @@
+// // ~~~~~~~~~~~~~~~~ ARRAY METHODS ~~~~~~~~~~~~~~~~
 // // Give a short description of:
 // // what the method does
 // // how it works
@@ -410,14 +411,14 @@ function arrayMadness(a, b) {
   return (newA.reduce((acc,c) => (acc+c))) > (newB.reduce((acc,c) => (acc+c)))
 }
 
-//refactored
+//refactoredd
 const arrayMadness = (a, b) => a.reduce((acc, c) => acc + c**2) > b.reduce((acc, c) => acc + c**3)
 
 console.log(arrayMadness([1,2,3,4,5],[2,2,2,2,2,2,1,1,1]))
-<<<<<<< HEAD
 
 
-// ~~~~~~~~~~~~ STRING METHODS ~~~~~~~~~~~~~~
+// // ~~~~~~~~~~~~~~~~ STRING METHODS ~~~~~~~~~~~~~~~~
+
 
 // Give a short description of:
 // what the method does
@@ -505,7 +506,7 @@ let n = str.includes("world", 12);     // false
 // indexOf
 // returns the index of the substring within the string. If the substring is not contained in the original string, it will return -1.
  str.indexOf(‘q’)
-//  linear time complexity O(n)
+ // linear time complexity O(n)
 // examples:
 const paragraph = 'The quick brown fox jumps over the lazy dog. If the dog barked, was it really lazy?';
 const searchTerm = 'dog';
@@ -526,7 +527,7 @@ console.log(`The index of the 2nd "${searchTerm}" is ${paragraph.indexOf(searchT
 // match
 // returns the matches when comparing a regular expression (regex) or value against a string
 str.match("queen") (returns “queen”)
- linear time complexity O(n)
+//  linear time complexity O(n)
 // examples:
 const paragraph = 'The quick brown fox jumps over the lazy dog. If the dog barked, was it really lazy?';
 // any character that is not a word character or whitespace
@@ -565,10 +566,10 @@ let str = "Hello world!";
 str.repeat(2);
 
 // replace
- // returns a string with a pattern replaced by a replacement string. It takes either a regex or a string as the pattern. With a regex you can globally replace all matches (using the g option), but with a string it will only replace the first occurrence.
+//  returns a string with a pattern replaced by a replacement string. It takes either a regex or a string as the pattern. With a regex you can globally replace all matches (using the g option), but with a string it will only replace the first occurrence.
 str.replace(stringPattern, replacement)     // replaces first occurrence
 str.replace(regexPattern, replacement)      // replaces all occurrences
- // linear time complexity O(n)
+//  linear time complexity O(n)
 // examples:
 const p = 'The quick brown fox jumps over the lazy dog. If the dog reacted, was it really lazy?';
 console.log(p.replace('dog', 'monkey'));
@@ -700,5 +701,3 @@ console.log(orig.trim()); // 'foo'
 
 const food = “asparagus     “
 return food.trim()     // “asparagus”
-=======
->>>>>>> 9280fb5948608cc6a38fdbdc70b6b0738c34836e
