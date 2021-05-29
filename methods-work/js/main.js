@@ -414,6 +414,7 @@ function arrayMadness(a, b) {
 const arrayMadness = (a, b) => a.reduce((acc, c) => acc + c**2) > b.reduce((acc, c) => acc + c**3)
 
 console.log(arrayMadness([1,2,3,4,5],[2,2,2,2,2,2,1,1,1]))
+<<<<<<< HEAD
 
 
 // ~~~~~~~~~~~~ STRING METHODS ~~~~~~~~~~~~~~
@@ -699,3 +700,5 @@ console.log(orig.trim()); // 'foo'
 
 const food = “asparagus     “
 return food.trim()     // “asparagus”
+=======
+>>>>>>> 9280fb5948608cc6a38fdbdc70b6b0738c34836e
